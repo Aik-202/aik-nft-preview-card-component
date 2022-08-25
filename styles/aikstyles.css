@@ -10,7 +10,8 @@ body {
     font-family: 'Outfit';
 }
 
-figure,p{
+figure,
+p {
     margin: 0;
 }
 
@@ -55,7 +56,7 @@ main {
 
 .container>p {
     color: hsl(215, 51%, 70%);
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.03rem;
     line-height: 1.5rem;
@@ -76,9 +77,13 @@ main {
     color: hsl(178, 100%, 50%);
 }
 
+.contd1>svg {
+    align-self: center;
+}
+
 .contd1>p {
     margin-left: 5px;
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -106,7 +111,7 @@ main {
     padding-top: 18px;
 }
 
-.cont2>figure{
+.cont2>figure {
     padding: 0;
     width: 12%;
 }
@@ -123,7 +128,7 @@ main {
     margin-left: 18px;
     color: hsl(0, 0%, 100%);
     letter-spacing: 0.05rem;
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -140,4 +145,41 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width:768px) {
+    .container {
+        max-width: 50%;
+    }
+
+    .container>h1 {
+        font-size: 25px;
+        letter-spacing: 0.08rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container>p {
+        font-size: 16px;
+        letter-spacing: 0.05rem;
+        line-height: 1.7rem;
+    }
+
+    .contd1>p {
+        font-size: 16px;
+    }
+
+    .contd2>p {
+        font-size: 16px;
+    }
+
+    .cont2>p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
 }
