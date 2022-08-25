@@ -56,6 +56,7 @@ main {
 
 .container>p {
     color: hsl(215, 51%, 70%);
+    letter-spacing: 0.05rem;
 }
 
 .cont1 {
@@ -115,6 +116,7 @@ main {
     align-self: center;
     margin-left: 18px;
     color: hsl(0, 0%, 100%);
+    letter-spacing: 0.05rem;
 }
 
 .cont2>p>span {
@@ -124,6 +126,8 @@ main {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .attribution a {
