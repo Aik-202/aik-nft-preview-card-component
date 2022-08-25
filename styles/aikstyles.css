@@ -181,5 +181,38 @@ main {
 }
 
 @media only screen and (max-width:1200px) {
+    main {
+        height: 100%;
+    }
+    .container>h1 {
+        font-size: 25px;
+        letter-spacing: 0.08rem;
+    }
 
+    p {
+        font-size: 22px;
+    }
+
+    .container>p {
+        font-size: 22px;
+        letter-spacing: 0.08rem;
+        line-height: 2.2rem;
+    }
+
+    .cont1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .contd1>p {
+        font-size: 18px;
+    }
+
+    .contd2>p {
+        font-size: 18px;
+    }
+
+    .cont2>p {
+        font-size: 22px;
+    }
 }
