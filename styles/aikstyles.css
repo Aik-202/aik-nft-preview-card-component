@@ -49,30 +49,47 @@ main {
 
 .container>h1 {
     color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
 }
 
 .container>p {
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
 }
 
 .cont1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .contd1 {
     align-self: flex-start;
     display: flex;
     flex-direction: row;
+    color: hsl(178, 100%, 50%);
+}
+
+.contd1>p {
+    margin-left: 5px;
 }
 
 .contd2 {
     align-self: flex-end;
     display: flex;
     flex-direction: row;
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
+}
+
+.contd2>svg {
+    align-self: center;
+}
+
+.contd2>p {
+    margin-left: 5px;
 }
 
 .cont2 {
@@ -101,7 +118,7 @@ main {
 }
 
 .cont2>p>span {
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
 }
 
 .attribution {
