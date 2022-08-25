@@ -55,9 +55,10 @@ main {
 
 .container>p {
     color: hsl(215, 51%, 70%);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     letter-spacing: 0.03rem;
+    line-height: 1.3rem;
 }
 
 .cont1 {
@@ -77,7 +78,7 @@ main {
 
 .contd1>p {
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
 }
 
@@ -94,7 +95,7 @@ main {
 
 .contd2>p {
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
 }
 
@@ -122,7 +123,7 @@ main {
     margin-left: 18px;
     color: hsl(0, 0%, 100%);
     letter-spacing: 0.05rem;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
 }
 
