@@ -46,21 +46,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS Media Queries
 - Flexbox
 - Mobile-first workflow
 
 ### What I learned
 
-I learnt how to perform fade in overlay, this is the first time I'm taking this kind of approach.
+I learnt how to perform fade in overlay, this is the first time I'm taking this kind of approach. I also took the mobile-first workflow approach, responsiveness was much easier! I wish to continue using this approach.
 
 To see how you can add code snippets, see below:
 
 
 ```css
 .svg {
-    top: 60%;
-    left: 22%;
+    top: 40%;
+    left: 39.5%;
     cursor: pointer;
     position: absolute;
     opacity: 0;
