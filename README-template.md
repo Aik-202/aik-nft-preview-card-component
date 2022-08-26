@@ -59,17 +59,40 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.svg {
+    top: 60%;
+    left: 22%;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+}
+
+
+.container>figure:hover .hover {
+    opacity: 0.5;
+    transition: 3s ease;
+}
+
+.container>figure:hover .svg {
+    opacity: 1;
+    transition: 3s ease;
 }
 ```
 

@@ -39,7 +39,7 @@ main {
     padding: 18px;
 }
 
-.container>figure{
+.container>figure {
     position: relative;
 }
 
@@ -52,15 +52,15 @@ main {
     cursor: pointer;
 }
 
-.svg{
-    top: 60%;
-    left: 22%;
+.svg {
+    top: 40%;
+    left: 43%;
     cursor: pointer;
     position: absolute;
     opacity: 0;
 }
 
-.hover{
+.hover {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,12 +76,12 @@ main {
 }
 
 
-.container>figure:hover .hover{
+.container>figure:hover .hover {
     opacity: 0.5;
     transition: 3s ease;
 }
 
-.container>figure:hover .svg{
+.container>figure:hover .svg {
     opacity: 1;
     transition: 3s ease;
 }
@@ -178,8 +178,8 @@ main {
 }
 
 .cont2>p>span {
-    color: hsl(0, 0%, 100%);  
-    cursor: pointer;  
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 .cont2>p>span:hover {
@@ -200,10 +200,11 @@ main {
 
 
 @media only screen and (max-width:280px) {
-    .svg{
+    .svg {
         top: 40%;
         left: 39%;
     }
+
     .container>h1 {
         font-size: 18px;
         letter-spacing: 0.08rem;
@@ -237,7 +238,7 @@ main {
         max-width: 60%;
     }
 
-    .svg{
+    .svg {
         top: 40%;
         left: 42%;
     }
@@ -248,7 +249,7 @@ main {
         max-width: 40%;
     }
 
-    .svg{
+    .svg {
         top: 40%;
         left: 42%;
     }
@@ -282,17 +283,17 @@ main {
 }
 
 @media only screen and (min-width:912px) {
-    main{
+    main {
         height: 100vh;
     }
 
-    .container{
+    .container {
         max-width: 30%;
     }
 
-    .svg{
+    .svg {
         top: 40%;
-        left: 42%;
+        left: 41%;
     }
 
     .container>h1 {
@@ -327,8 +328,9 @@ main {
         font-size: 13px;
     }
 }
+
 @media only screen and (min-width:1280px) {
-    main{
+    main {
         height: 100vh;
     }
 
@@ -336,7 +338,7 @@ main {
         max-width: 25%;
     }
 
-    .svg{
+    .svg {
         top: 40%;
         left: 42%;
     }
@@ -345,6 +347,7 @@ main {
         margin-top: 25px;
         margin-bottom: 25px;
     }
+
     .container>h1 {
         font-size: 20px;
         letter-spacing: 0.08rem;
