@@ -54,7 +54,7 @@ main {
 
 .svg{
     top: 60%;
-    left: 20%;
+    left: 22%;
     cursor: pointer;
     position: absolute;
     opacity: 0;
@@ -199,7 +199,7 @@ main {
 }
 
 
-@media only screen and (min-width:280px) {
+@media only screen and (max-width:280px) {
     .svg{
         top: 40%;
         left: 39%;
