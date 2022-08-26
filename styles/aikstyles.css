@@ -53,8 +53,8 @@ main {
 }
 
 .svg{
-    top: 43%;
-    left: 50%;
+    top: 60%;
+    left: 20%;
     cursor: pointer;
     position: absolute;
     opacity: 0;
