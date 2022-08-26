@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/css-flex-mobilefirst-workflow-semantic-html5-markup-9WAOCCGMvZ)
 - Live Site URL: [Add live site URL here](https://aik-202.github.io/aik-nft-preview-card-component/)
 
 ## My process
