@@ -39,19 +39,54 @@ main {
     padding: 18px;
 }
 
+.container>figure{
+    position: relative;
+}
+
 .container>figure>img {
     border-radius: 5px;
     max-width: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
+
+.svg{
+    position: absolute;
+}
+
+.hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.5;
+}
+
+
+/* .container>figure:hover .hover{
+    opacity: 0.5;
+    transition: 3s ease-in-out;
+} */
 
 .container>h1 {
     color: hsl(0, 0%, 100%);
     font-size: 20px;
     letter-spacing: 0.05rem;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.container>h1:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .container>p {
@@ -126,14 +161,19 @@ main {
 .cont2>p {
     align-self: center;
     margin-left: 18px;
-    color: hsl(0, 0%, 100%);
+    color: hsl(215, 51%, 70%);
     letter-spacing: 0.05rem;
     font-size: 14px;
     font-weight: 300;
 }
 
 .cont2>p>span {
-    color: hsl(215, 51%, 70%);
+    color: hsl(0, 0%, 100%);  
+    cursor: pointer;  
+}
+
+.cont2>p>span:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .attribution {
@@ -147,7 +187,13 @@ main {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:500px) {
+    .container {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width:600px) {
     .container {
         max-width: 50%;
     }
@@ -180,10 +226,15 @@ main {
     }
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (min-width:912px) {
     main{
         height: 100vh;
     }
+
+    .container{
+        max-width: 38%;
+    }
+
     .container>h1 {
         font-size: 25px;
         letter-spacing: 0.08rem;
