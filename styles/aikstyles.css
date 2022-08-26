@@ -187,42 +187,72 @@ main {
     color: hsl(228, 45%, 44%);
 }
 
+
+@media only screen and (min-width:280px) {
+    .container>h1 {
+        font-size: 18px;
+        letter-spacing: 0.08rem;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .container>p {
+        font-size: 10px;
+        letter-spacing: 0.05rem;
+        line-height: 1.7rem;
+    }
+
+    .contd1>p {
+        font-size: 10px;
+    }
+
+    .contd2>p {
+        font-size: 10px;
+    }
+
+    .cont2>p {
+        font-size: 10px;
+    }
+}
+
 @media only screen and (min-width:500px) {
     .container {
         max-width: 60%;
     }
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:768px) {
     .container {
-        max-width: 50%;
+        max-width: 40%;
     }
 
     .container>h1 {
-        font-size: 25px;
+        font-size: 22px;
         letter-spacing: 0.08rem;
     }
 
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .container>p {
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing: 0.05rem;
         line-height: 1.7rem;
     }
 
     .contd1>p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .contd2>p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .cont2>p {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -232,20 +262,20 @@ main {
     }
 
     .container{
-        max-width: 38%;
+        max-width: 30%;
     }
 
     .container>h1 {
-        font-size: 25px;
+        font-size: 22px;
         letter-spacing: 0.08rem;
     }
 
     p {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .container>p {
-        font-size: 18px;
+        font-size: 13px;
         letter-spacing: 0.08rem;
         line-height: 2.2rem;
     }
@@ -256,15 +286,15 @@ main {
     }
 
     .contd1>p {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .contd2>p {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .cont2>p {
-        font-size: 18px;
+        font-size: 13px;
     }
 }
 @media only screen and (min-width:1280px) {
@@ -272,11 +302,37 @@ main {
         height: 100vh;
     }
     .container {
-        max-width: 30%;
+        max-width: 25%;
     }
 
     .cont1 {
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+    .container>h1 {
+        font-size: 20px;
+        letter-spacing: 0.08rem;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .container>p {
+        font-size: 13px;
+        letter-spacing: 0.05rem;
+        line-height: 1.7rem;
+    }
+
+    .contd1>p {
+        font-size: 13px;
+    }
+
+    .contd2>p {
+        font-size: 13px;
+    }
+
+    .cont2>p {
+        font-size: 13px;
     }
 }
