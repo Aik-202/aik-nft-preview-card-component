@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/Screenshot%20(157).png)
+![](./screenshots/Screenshot%20(158).png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://aik-202.github.io/aik-nft-preview-card-component/)
 
 ## My process
 
