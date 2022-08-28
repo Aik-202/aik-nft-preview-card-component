@@ -15,6 +15,15 @@ p {
     margin: 0;
 }
 
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -37,13 +46,14 @@ main {
     max-width: 100%;
     margin: 20px;
     padding: 18px;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container>figure {
     position: relative;
 }
 
-.container>figure>img {
+.container>figure>a>img {
     border-radius: 5px;
     max-width: 100%;
     width: 100%;
@@ -86,7 +96,7 @@ main {
     transition: 3s ease;
 }
 
-.container>h1 {
+.container>h1>a {
     color: hsl(0, 0%, 100%);
     font-size: 20px;
     letter-spacing: 0.05rem;
@@ -94,7 +104,7 @@ main {
     cursor: pointer;
 }
 
-.container>h1:hover {
+.container>h1>a:hover {
     color: hsl(178, 100%, 50%);
     transition: 3s ease;
 }
@@ -177,12 +187,12 @@ main {
     font-weight: 300;
 }
 
-.cont2>p>span {
+.cont2>p>span>a {
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
 
-.cont2>p>span:hover {
+.cont2>p>span>a:hover {
     color: hsl(178, 100%, 50%);
     transition: 3s ease;
 }
@@ -205,7 +215,7 @@ main {
         left: 39%;
     }
 
-    .container>h1 {
+    .container>h1>a {
         font-size: 18px;
         letter-spacing: 0.08rem;
     }
@@ -254,7 +264,7 @@ main {
         left: 42%;
     }
 
-    .container>h1 {
+    .container>h1>a {
         font-size: 22px;
         letter-spacing: 0.08rem;
     }
@@ -296,7 +306,7 @@ main {
         left: 41%;
     }
 
-    .container>h1 {
+    .container>h1>a {
         font-size: 22px;
         letter-spacing: 0.08rem;
     }
@@ -348,7 +358,7 @@ main {
         margin-bottom: 25px;
     }
 
-    .container>h1 {
+    .container>h1>a {
         font-size: 20px;
         letter-spacing: 0.08rem;
     }
